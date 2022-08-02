@@ -15,7 +15,7 @@ class EditPedidoCliente
         return function () {
             AssetManager::add('js', FS_ROUTE . '/Plugins/PrintNCF/Assets/JS/printNCF.js');
 
-            $this->addButton('main', [
+            $this->addButton('EditPedidoCliente', [
                 'action' => 'printTicketNCF()',
                 'color' => 'info',
                 'icon' => 'fas fa-print',

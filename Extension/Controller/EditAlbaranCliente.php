@@ -15,7 +15,7 @@ class EditAlbaranCliente
         return function () {
             AssetManager::add('js', FS_ROUTE . '/Plugins/PrintNCF/Assets/JS/printNCF.js');
 
-            $this->addButton('main', [
+            $this->addButton('EditAlbaranCliente', [
                 'action' => 'printTicketNCF()',
                 'color' => 'info',
                 'icon' => 'fas fa-print',
