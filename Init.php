@@ -2,17 +2,19 @@
 
 namespace FacturaScripts\Plugins\PrintNCF;
 
+use FacturaScripts\Core\Lib\AssetManager;
+
 class Init extends \FacturaScripts\Core\Base\InitClass
 {
 
     public function init()
     {
-        // se ejecuta cada vez que carga FacturaScripts (si este plugin está activado).
+        AssetManager::add('js', FS_ROUTE . '/Dinamic/Assets/JS/printNCF.js');
     }
 
     public function update()
     {
-        // se ejecuta cada vez que se instala o actualiza el plugin.
+        AssetManager::add('js', FS_ROUTE . '/Dinamic/Assets/JS/printNCF.js');
     }
 
 }
