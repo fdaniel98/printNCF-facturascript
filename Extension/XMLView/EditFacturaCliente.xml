@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<view>
-    <rows>
-        <row type="actions">
-            <button type="js" id="printTicketNCFBtn2" label="Imprimir Ticket NCF" color="info" action="printTicketNCF()" icon="fas fa-print"/>
-        </row>
-    </rows>
-</view>
