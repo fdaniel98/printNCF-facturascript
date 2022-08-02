@@ -13,7 +13,7 @@ class EditFacturaCliente
     public function createViews(): Closure
     {
         return function () {
-            $this->addButton('main', [
+            $this->addButton('EditFacturaCliente', [
                 'action' => 'printTicketDialog()',
                 'color' => 'info',
                 'icon' => 'fas fa-print',
